@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#1b4d3e">
-<title>Jensen & Diana · Invitación de Primavera</title>
+<title>Marcos & Angela · Invitación de Boda</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -64,7 +64,6 @@ body {
     radial-gradient(ellipse at 92% 35%, rgba(27,77,62,.12), transparent 35rem),
     radial-gradient(ellipse at 12% 65%, rgba(247,210,131,.16), transparent 30rem),
     radial-gradient(ellipse at 88% 88%, rgba(230,92,123,.12), transparent 34rem),
-    /* SVG de marcas de agua florales: Orquídeas, Magnolias, Hojas y Flores de cerezo */
     url("data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cg stroke='%231b4d3e' stroke-opacity='0.05' stroke-width='1.2' fill='none'%3E%3Ccircle cx='40' cy='40' r='12' fill='%23e65c7b' fill-opacity='0.035'/%3E%3Cpath d='M40 20 C40 32, 28 40, 40 40 C40 40, 52 32, 40 20 Z'/%3E%3Cpath d='M40 60 C40 48, 52 40, 40 40 C40 40, 28 48, 40 60 Z'/%3E%3Cpath d='M20 40 C32 40, 40 28, 40 40 C40 40, 32 52, 20 40 Z'/%3E%3Cpath d='M60 40 C48 40, 40 52, 40 40 C40 40, 48 28, 60 40 Z'/%3E%3Cpath d='M140 130 C120 110, 160 90, 140 150 C130 160, 110 140, 140 130 Z' stroke='%23d4a359' stroke-opacity='0.06' fill='%23d4a359' fill-opacity='0.02'/%3E%3Cpath d='M160 40 Q 180 60, 150 90 T 130 120' stroke='%23136946' stroke-opacity='0.04' stroke-width='1.5'/%3E%3Ccircle cx='150' cy='90' r='4' fill='%23e65c7b' fill-opacity='0.04'/%3E%3Ccircle cx='130' cy='120' r='3' fill='%23f7d283' fill-opacity='0.05'/%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
 }
@@ -107,7 +106,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
     linear-gradient(140deg, #faf5e9, #f8f2e9 55%, #edf2e5);
 }
 
-/* MARCOS FLORALES EN LAS ESQUINAS DEL HERO */
 .hero::before, .hero::after {
   content: "";
   position: absolute;
@@ -174,7 +172,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   text-shadow: 0 1px 0 rgba(255,255,255,0.8);
 }
 
-/* ── SOBRE INTERACTIVO CON DESPLIEGUE FLUIDO Y MULTICAPA DE ALTA GAMA ── */
 .envelope-wrap {
   margin: 40px auto 34px;
   perspective: 1800px;
@@ -200,7 +197,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   transform-style: preserve-3d;
 }
 
-/* Forro Interior con Marcas Primaverales */
 .envelope::before {
   content: "";
   position: absolute;
@@ -213,7 +209,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   border-radius: 16px;
 }
 
-/* Solapa Superior con Apertura Fluida en 3 Pasos */
 .flap {
   position: absolute;
   left: 0; right: 0; top: 0;
@@ -236,7 +231,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   opacity: 0.9;
 }
 
-/* ── TARJETA INTERIOR: MARCO BOTÁNICO ELEGANTE Y MARCA DE AGUA VIVA ── */
 .letter {
   position: absolute;
   left: 4%; width: 92%; height: 250px; top: -12px;
@@ -249,7 +243,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   align-items: center;
   justify-content: space-between;
   padding: 22px 20px;
-  /* Transición sincronizada con delay para que la tarjeta emerja justo tras la apertura del sobre */
   transition: transform 1.3s cubic-bezier(0.175, 0.885, 0.32, 1.2) 0.25s, box-shadow 1.3s ease 0.25s;
   z-index: 1;
   box-shadow: var(--border-3d);
@@ -257,7 +250,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   transform-style: preserve-3d;
 }
 
-/* Marcos Primaverales Emboscados en la Tarjeta */
 .letter::before {
   content: "🌸 ❧ 🌺";
   position: absolute;
@@ -327,7 +319,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   text-shadow: 0 1px 3px rgba(230,92,123,0.3);
 }
 
-/* Sello de Cera Dorado */
 .seal {
   position: absolute;
   z-index: 5;
@@ -360,7 +351,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   opacity: 0.95;
 }
 
-/* ── ESTADO ABIERTO: ELEVACIÓN 3D Y SECUENCIA CINEMÁTICA ── */
 .envelope-wrap.open .flap {
   transform: rotateX(180deg);
   z-index: 0;
@@ -588,7 +578,6 @@ h3 {
   text-shadow: 0 2px 0 rgba(255,255,255,0.5);
 }
 
-/* MARCO BOTÁNICO DE LA FOTO PRINCIPAL */
 .photo-container {
   width: min(100%, 360px);
   height: 450px;
@@ -611,7 +600,6 @@ h3 {
   display: block;
 }
 
-/* ── MARCOS PRIMAVERALES Y TARJETA DE PADRINOS CON MARCAS BOTÁNICAS ── */
 .padrinos-card {
   border: 2px solid var(--champagne-gold);
   padding: 44px 30px;
@@ -672,7 +660,6 @@ h3 {
   margin-top: 4px;
 }
 
-/* MARCO Y TARJETA DE FECHA CON MARCA DE AGUA FLORAL */
 .date-card {
   border: 2px solid var(--champagne-gold);
   padding: 42px 30px;
@@ -990,28 +977,28 @@ textarea { min-height: 95px; resize: vertical; }
 
 <header class="hero" id="inicio">
   <div class="hero-inner">
-    <div class="monogram">J <span class="amp">&</span> D</div>
+    <div class="monogram">M <span class="amp">&</span> A</div>
     <div class="eyebrow">Con la bendición de Dios</div>
     <div class="envelope-wrap" id="envelope" role="button" tabindex="0" aria-label="Abrir invitación">
       <div class="envelope">
         <div class="letter">
           <div class="letter-photo-frame">
-            <img src="Jensen-Diana.png" alt="Jensen y Diana" id="letterPhotoImg">
+            <img src="MATRIMONIO.jpeg" alt="Marcos y Angela" id="letterPhotoImg">
           </div>
           <div class="letter-content">
             <div class="eyebrow">Nuestra Boda</div>
-            <div class="letter-names">Jensen <i style="color:var(--rose-vibrant);font-style:italic">&</i> Diana</div>
-            <div class="letter-date">11 · 11 · 2026</div>
+            <div class="letter-names">Marcos <i style="color:var(--rose-vibrant);font-style:italic">&</i> Angela</div>
+            <div class="letter-date">02 · 02 · 2026</div>
             <div class="letter-heart">♡</div>
           </div>
         </div>
         <div class="flap"></div>
-        <div class="seal">J<span class="amp">&</span>D</div>
+        <div class="seal">M<span class="amp">&</span>A</div>
       </div>
     </div>
     <div class="tap" id="tapText">Toca el sobre para abrir la invitación</div>
-    <h1>Jensen <span class="amp">&</span><br>Diana</h1>
-    <div class="hero-date" id="heroDate">MIÉRCOLES · 11 NOVIEMBRE 2026</div>
+    <h1>Marcos <span class="amp">&</span><br>Angela</h1>
+    <div class="hero-date" id="heroDate">LUNES · 02 FEBRERO 2026</div>
     <button class="primary" onclick="document.getElementById('mensaje').scrollIntoView({behavior:'smooth'})">Descubrir invitación</button>
   </div>
 </header>
@@ -1020,10 +1007,10 @@ textarea { min-height: 95px; resize: vertical; }
   <div class="content">
     <div class="kicker">Un día para recordar</div>
     <div class="spring-divider"><span></span>❧ 🌸 ❧<span></span></div>
-    <div class="names" id="namesDisplay">Jensen Izquierdo Vásquez<br><span style="font-style:italic;color:var(--champagne-gold);font-size:.8em">&</span><br>Diana Isamar Gómez Ahuanari</div>
+    <div class="names" id="namesDisplay">Marcos Sifuentes Mello<br><span style="font-style:italic;color:var(--champagne-gold);font-size:.8em">&</span><br>Angela Tolentino Paredes</div>
     
     <div class="photo-container">
-      <img src="JENSEN-DIANA-1.jpeg" alt="Jensen y Diana" id="mainPhotoImg">
+      <img src="MATRI-CORAZON.jpeg" alt="Marcos y Angela" id="mainPhotoImg">
     </div>
     <p class="intro" style="margin-top:28px">Con inmensa alegría y con la bendición de Dios, queremos compartir contigo el comienzo de una nueva etapa de nuestras vidas. Nos encantaría que nos acompañes en este día tan especial.</p>
     <div class="botanical">❦</div>
@@ -1042,11 +1029,11 @@ textarea { min-height: 95px; resize: vertical; }
       <div class="padrinos-grid">
         <div class="padrino-item">
           <div class="padrino-role">Padrino de Honor</div>
-          <div class="padrino-name">Hering Villacorta Salas</div>
+          <div class="padrino-name">Juan Díaz Ríos</div>
         </div>
         <div class="padrino-item">
           <div class="padrino-role">Madrina de Honor</div>
-          <div class="padrino-name">Milusca Paiva Curitima</div>
+          <div class="padrino-name">Juliana Calderon Rocha</div>
         </div>
       </div>
     </div>
@@ -1058,9 +1045,9 @@ textarea { min-height: 95px; resize: vertical; }
     <div class="kicker">Reserva la fecha</div>
     <h2>El comienzo de<br>nuestra historia</h2>
     <div class="date-card">
-      <div class="date-month" id="monthDisplay">Noviembre · 2026</div>
-      <div class="date-num" id="dayDisplay">11</div>
-      <div class="eyebrow" id="weekdayDisplay">Miércoles</div>
+      <div class="date-month" id="monthDisplay">Febrero · 2026</div>
+      <div class="date-num" id="dayDisplay">02</div>
+      <div class="eyebrow" id="weekdayDisplay">Lunes</div>
       <div style="margin:20px 0;color:var(--champagne-gold)">— 🌸 ✦ 🌸 —</div>
       <div style="font-size:22px;color:var(--spring-green);font-weight:600" id="timeDisplay">4:30 p. m.</div>
     </div>
@@ -1137,9 +1124,9 @@ textarea { min-height: 95px; resize: vertical; }
       <div class="yape-card">
         <div class="yape-badge">REGALA POR YAPE</div>
         <div class="qr-frame">
-          <img src="QR-DIANA.jpeg" alt="QR Yape Diana Isamar Gomez Ahuanari">
+          <img src="QR.png" alt="QR Yape Angela Tolentino Paredes">
         </div>
-        <p style="font-family:'Montserrat',sans-serif;font-weight:600;color:var(--yape-purple);font-size:16px;margin:14px 0 4px">Diana Isamar Gomez Ahuanari</p>
+        <p style="font-family:'Montserrat',sans-serif;font-weight:600;color:var(--yape-purple);font-size:16px;margin:14px 0 4px">Angela Tolentino Paredes</p>
         <p class="tiny" style="color:var(--text-muted)">Escanea el código QR desde tu app de Yape para enviarnos tu muestra de cariño.</p>
       </div>
     </div>
@@ -1173,10 +1160,10 @@ textarea { min-height: 95px; resize: vertical; }
 </section>
 
 <footer class="foot">
-  <div class="names">Jensen <i style="color:var(--champagne-gold)">&</i> Diana</div>
+  <div class="names">Marcos <i style="color:var(--champagne-gold)">&</i> Angela</div>
   <p>Con amor, esperamos compartir contigo<br>uno de los días más felices de nuestras vidas.</p>
   <div style="color:var(--champagne-gold);font-size:24px">❦</div>
-  <p id="footerDate">11 · 11 · 2026</p>
+  <p id="footerDate">02 · 02 · 2026</p>
 </footer>
 
 <div class="toast" id="toast" role="status"></div>
@@ -1256,15 +1243,15 @@ envelope.addEventListener('keydown', e => {
   }
 });
 
-/* Fecha exacta: Miércoles 11 de Noviembre de 2026 */
-const date = new Date(2026, 10, 11, 16, 30, 0);
+/* Fecha exacta: Lunes 02 de Febrero de 2026 */
+const date = new Date(2026, 1, 2, 16, 30, 0);
 const months = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
 const days = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
 $('monthDisplay').textContent = months[date.getMonth()] + ' · ' + date.getFullYear();
 $('dayDisplay').textContent = String(date.getDate()).padStart(2, '0');
 $('weekdayDisplay').textContent = days[date.getDay()];
-$('heroDate').textContent = days[date.getDay()].toUpperCase() + ' · 11 NOVIEMBRE 2026';
-$('footerDate').textContent = '11 · 11 · 2026';
+$('heroDate').textContent = days[date.getDay()].toUpperCase() + ' · 02 FEBRERO 2026';
+$('footerDate').textContent = '02 · 02 · 2026';
 
 function countdown() {
   let diff = date - new Date();
@@ -1284,18 +1271,18 @@ setInterval(countdown, 60000);
 
 /* Calendario */
 $('calendarBtn').addEventListener('click', () => {
-  const title = encodeURIComponent("Boda de Jensen y Diana");
+  const title = encodeURIComponent("Boda de Marcos y Angela");
   const details = encodeURIComponent("Ceremonia Religiosa (4:30 PM) en Parroquia Virgen del Carmen. Recepción y Fiesta (6:30 PM) en La Casona Verde (Av. Tupac Amaru 350).");
   const location = encodeURIComponent("Parroquia Virgen del Carmen & La Casona Verde");
-  const startDate = "20261111T213000Z";
-  const endDate = "20261112T070000Z";
+  const startDate = "20260202T213000Z";
+  const endDate = "20260203T070000Z";
   const gcalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${startDate}/${endDate}&details=${details}&location=${location}`;
   let ics = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//Invitacion Jensen y Diana//ES',
+    'PRODID:-//Invitacion Marcos y Angela//ES',
     'BEGIN:VEVENT',
-    'UID:jensen-diana-20261111@boda.local',
+    'UID:marcos-angela-20260202@boda.local',
     `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').split('.')[0]}Z`,
     `DTSTART:${startDate}`,
     `DTEND:${endDate}`,
@@ -1308,7 +1295,7 @@ $('calendarBtn').addEventListener('click', () => {
   let blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
   let a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = 'Boda-Jensen-y-Diana-11-noviembre.ics';
+  a.download = 'Boda-Marcos-y-Angela-02-febrero.ics';
   a.click();
   URL.revokeObjectURL(a.href);
   setTimeout(() => {
@@ -1321,7 +1308,7 @@ $('calendarBtn').addEventListener('click', () => {
 /* RSVP WhatsApp con el número 932357573 */
 $('rsvpForm').addEventListener('submit', e => {
   e.preventDefault();
-  let msg = `Hola, soy ${$('guestName').value}. ${$('attendance').value}. Número de asistentes: ${$('guestCount').value}. ${$('message').value ? 'Mensaje: ' + $('message').value : ''} Confirmación para la boda de Jensen y Diana, 11/11/2026.`;
+  let msg = `Hola, soy ${$('guestName').value}. ${$('attendance').value}. Número de asistentes: ${$('guestCount').value}. ${$('message').value ? 'Mensaje: ' + $('message').value : ''} Confirmación para la boda de Marcos y Angela, 02/02/2026.`;
   let phone = '51932357573';
   window.open('https://wa.me/' + phone + '?text=' + encodeURIComponent(msg), '_blank', 'noopener');
 });
